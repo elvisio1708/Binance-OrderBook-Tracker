@@ -190,7 +190,7 @@ node export_to_csv.js
  ## Known Bugs
 
  - **Auto refresh**  
-  Dashboard will no refresh on it's own. Manual refresh required every minute.
+  Dashboard will not refresh on it's own. Manual refresh required every minute.
 
 ## Contributing
 
