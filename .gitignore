@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Python virtual environment
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config files with secrets
+config.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit cache (optional)
+.streamlit/
+
+# IDE/editor files (optional)
+.vscode/
+.idea/

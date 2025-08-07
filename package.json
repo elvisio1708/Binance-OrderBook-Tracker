@@ -1,0 +1,25 @@
+{
+  "name": "connectors-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:all": "concurrently \"node binance.js\" \"python -m streamlit run realtime_dashboard.py\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apla/clickhouse": "^1.6.4",
+    "axios": "^1.11.0",
+    "clickhouse": "^2.6.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.6.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
